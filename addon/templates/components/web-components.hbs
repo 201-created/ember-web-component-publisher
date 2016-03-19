@@ -1,0 +1,5 @@
+{{#each webComponents.components as |componentRef|}}
+  {{#ember-wormhole to=componentRef.element}}
+    {{component componentRef.name wc-attrs=componentRef.attrs}}
+  {{/ember-wormhole}}
+{{/each}}

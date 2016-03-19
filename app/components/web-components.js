@@ -1,0 +1,1 @@
+export { default } from 'ember-web-component-publisher/components/web-components';
